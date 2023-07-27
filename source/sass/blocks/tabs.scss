@@ -1,0 +1,83 @@
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #EFEFEF;
+    border-radius: 18px;
+}
+
+.tabs__sorting-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs__sorting {
+    font-family: "Neue-semibold";
+    color: #22242A;
+    padding-left: 30px;
+    margin-right: 80px;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.tabs__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs__item {
+    margin-right: 57px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.tabs__link {
+    color: #9A9DAB;
+
+    &:hover, &:active {
+        color: #22242A;
+    }
+}
+
+.tabs__sorting-view {
+    padding-right: 20px;
+}
+
+.tabs button {    
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.tabs__sorting-tile {
+    background-image: url("../img/group-table.svg");
+    background-repeat: no-repeat;
+    margin-right: 2px;
+}
+
+.wares--sorting-tile .tabs__sorting-tile {
+    background-image: url("../img/group-table-active.svg");    
+}
+
+.tabs__sorting-simple {
+    background-image: url("../img/group-list.svg");
+    background-repeat: no-repeat;
+    margin-right: 27px;
+}
+
+.wares--sorting-simple .tabs__sorting-simple {
+    background-image: url("../img/group-list-active.svg");    
+}

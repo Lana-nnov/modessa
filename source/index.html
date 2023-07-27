@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+    <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/apple.png"> <!-- 180×180 -->
+    <link rel="preload" href="./fonts/Neue-Regular.woff" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Neue-Medium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Neue-DemiBold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link href="css/style.min.css" rel="stylesheet">
+    <title>Пульсометры</title>
+  </head>
+  <body>
+    <header class="header container">      
+    </header>
+    <main class="main container">   
+      <section class="filters">
+        <section class="filters__form"></section>
+       
+        <section class="filters__categories">             
+          <div class="wares wares--sorting-simple">
+            <div class="tabs">
+              <div class="tabs__sorting-wrap">
+                <div class="tabs__sorting">Сортировка</div>
+                <ul class="tabs__list">
+                  <li class="tabs__item">
+                    <a class="tabs__link tabs__link--active" href="#">Все</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a class="tabs__link" href="#">По популярности</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a class="tabs__link" href="#">По цене</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a class="tabs__link" href="#">Акции</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a class="tabs__link" href="#">По размеру</a>
+                  </li>                
+                </ul>
+              </div>
+              
+              <div class="tabs__sorting-view">                
+                <button type="button" name="button" class="tabs__sorting-simple"><span class="visually-hidden">показать списком</span></button>
+                <button type="button" name="button" class="tabs__sorting-tile"><span class="visually-hidden">показать
+                  плиткой</span></button>
+              </div>
+            </div>       
+            <div class="wares__list">
+              <div class="wares__item wares__item--sale">
+                <div class="wares__attributes">
+                  <button class="favorite" title="Добавить в избранное" type="button">
+                    <span class="visually-hidden">
+                      Добавить в избранное
+                    </span>
+                  </button>                 
+                </div>               
+                <figure class="wares__fig">
+                  <picture>
+                    <source type="image/webp" srcset="img/fashion1.webp 1x, img/fashion1@2x.webp 2x">               
+                    <img src="img/fashion1.jpg" srcset="img/fashion1@2x.jpg 2x" width="305" height="370"
+                      alt="">
+                  </picture>                  
+                </figure> 
+                <div class="wares__features-wrap">
+                  <div class="wares__features">
+                    <div class="wares__figcaption">Женский укороченный кардиган оверсайз на пуговицах Happy Fox</div>
+                    <div class="wares__feature"><span>Размеры</span><span>с 32 по 56</span></div>
+                    <div class="wares__feature"><span>Материал</span><span>хлопок</span></div>
+                    <div class="wares__feature"><span>Страна</span><span>Турция</span></div>
+                  </div>      
+                  <div class="wares__order">                  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">В корзину</button> 
+                    <div class="wares__price">
+                      <span class="wares__old-price">12 590 ₽</span>
+                      <span>2 499 ₽</span>
+                    </div>                 
+                  </div>          
+                </div> 
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a>   
+              </div>
+  
+              <div class="wares__item">
+                <div class="wares__attributes">
+                  <button class="favorite" title="Добавить в избранное" type="button">
+                    <span class="visually-hidden">
+                      Добавить в избранное
+                    </span>
+                  </button>                  
+                </div>               
+                <figure class="wares__fig">
+                  <picture>
+                    <source type="image/webp" srcset="img/fashion2.webp 1x, img/fashion2@2x.webp 2x">               
+                    <img src="img/fashion2.jpg" srcset="img/fashion2@2x.jpg 2x" width="305" height="370"
+                      alt="">
+                  </picture>                  
+                </figure>
+                <div class="wares__features-wrap">
+                  <div class="wares__features">
+                    <div class="wares__figcaption">Женская сумка с ручкой из натуральной кожи А-Дина Текс</div>
+                    <div class="wares__feature"><span>Размеры</span><span>с 32 по 56</span></div>
+                    <div class="wares__feature"><span>Материал</span><span>хлопок</span></div>
+                    <div class="wares__feature"><span>Страна</span><span>Турция</span></div>
+                  </div>      
+                  <div class="wares__order">                  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">В корзину</button> 
+                    <div class="wares__price">                      
+                      <span>8 360 ₽</span>
+                    </div>                 
+                  </div>          
+                </div>    
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a> 
+              </div>
+  
+  
+              <div class="wares__item">
+                <div class="wares__attributes">
+                  <button class="favorite" title="Добавить в избранное" type="button">
+                    <span class="visually-hidden">
+                      Добавить в избранное
+                    </span>
+                  </button>                  
+                </div>                
+                <figure class="wares__fig">
+                  <picture>
+                    <source type="image/webp" srcset="img/fashion3.webp 1x, img/fashion3@2x.webp 2x">               
+                    <img src="img/fashion3.jpg" srcset="img/fashion3@2x.jpg 2x" width="305" height="370"
+                      alt="">
+                  </picture>                  
+                </figure>
+                <div class="wares__features-wrap">
+                  <div class="wares__features">
+                    <div class="wares__figcaption">Женский укороченный кардиган оверсайз на пуговицах Happy Fox</div>
+                    <div class="wares__feature"><span>Размеры</span><span>с 32 по 56</span></div>
+                    <div class="wares__feature"><span>Материал</span><span>хлопок</span></div>
+                    <div class="wares__feature"><span>Страна</span><span>Турция</span></div>
+                  </div>      
+                  <div class="wares__order">                  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">В корзину</button> 
+                    <div class="wares__price">                      
+                      <span>1 290 ₽</span>
+                    </div>                 
+                  </div>          
+                </div>    
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a> 
+              </div>
+  
+              <div class="wares__item">
+                <div class="wares__attributes">
+                  <button class="favorite" title="Добавить в избранное" type="button">
+                    <span class="visually-hidden">
+                      Добавить в избранное
+                    </span>
+                  </button>                  
+                </div>                
+                <figure class="wares__fig">
+                  <picture>
+                    <source type="image/webp" srcset="img/fashion4.webp 1x, img/fashion4@2x.webp 2x">               
+                    <img src="img/fashion4.jpg" srcset="img/fashion4@2x.jpg 2x" width="305" height="370"
+                      alt="">
+                  </picture>                  
+                </figure>
+                <div class="wares__features-wrap">
+                  <div class="wares__features">
+                    <div class="wares__figcaption">Туфли Rieker Натуральная кожа</div>
+                    <div class="wares__feature"><span>Размеры</span><span>с 32 по 56</span></div>
+                    <div class="wares__feature"><span>Материал</span><span>хлопок</span></div>
+                    <div class="wares__feature"><span>Страна</span><span>Турция</span></div>
+                  </div>      
+                  <div class="wares__order">                  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">В корзину</button> 
+                    <div class="wares__price">                      
+                      <span>8 360 ₽</span>
+                    </div>                 
+                  </div>          
+                </div>  
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a>   
+              </div>
+  
+              <div class="wares__item wares__item--choose">                     
+                <span class="wares__sale" aria-hidden="true">40%</span>        
+                <figure class="wares__fig">
+                    <img class="wares__img-simple" src="img/fashion5.png" srcset="img/fashion5@2x.png 2x" width="265" height="387"
+                      alt="">
+                    <img class="wares__img-tile" src="img/fashion5-tile.png" srcset="img/fashion5-tile@2x.png 2x" width="250" height="387"
+                      alt="">
+                </figure>  
+                <div class="wares__features-wrap">
+                  <div class="wares__figcaption">Сумки</div>
+                  <div class="wares__order">                                     
+                    <div class="wares__price"><span>от</span> 980 ₽</div>  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">Подобрать</button>      
+                  </div>            
+                </div>    
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a> 
+              </div>
+  
+              <div class="wares__item wares__item--sale">
+                <div class="wares__attributes">
+                  <button class="favorite" title="Добавить в избранное" type="button">
+                    <span class="visually-hidden">
+                      Добавить в избранное
+                    </span>
+                  </button>                  
+                </div>               
+                <figure class="wares__fig">
+                  <picture>
+                    <source type="image/webp" srcset="img/fashion6.webp 1x, img/fashion6@2x.webp 2x">               
+                    <img src="img/fashion6.jpg" srcset="img/fashion6@2x.jpg 2x" width="305" height="370"
+                      alt="">
+                  </picture>                  
+                </figure>
+                <div class="wares__features-wrap">
+                  <div class="wares__features">
+                    <div class="wares__figcaption">Босоножки женские на массивной платформе 7,5 см</div>
+                    <div class="wares__feature"><span>Размеры</span><span>с 32 по 56</span></div>
+                    <div class="wares__feature"><span>Материал</span><span>хлопок</span></div>
+                    <div class="wares__feature"><span>Страна</span><span>Турция</span></div>
+                  </div>      
+                  <div class="wares__order">                  
+                    <button class="wares__busket" title="Добавить в корзину" type="button">В корзину</button> 
+                    <div class="wares__price">
+                      <span class="wares__old-price">12 590 ₽</span>
+                      <span>2499 ₽</span>
+                    </div>                 
+                  </div>          
+                </div> 
+                <a class="wares__link" href="#" tabindex="0">
+                  <span class="visually-hidden">
+                    Перейти на страницу товара
+                  </span>
+                </a>    
+              </div>
+            </div>      
+          </div>
+        </section>  
+      </section>
+    </main>   
+    <script src="js/script.js"></script>
+  </body>
+</html>
